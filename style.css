@@ -1,0 +1,427 @@
+.navbar {
+  background-color: white;
+  position: relative;
+  top: -10px;
+  height: 75px;
+  margin-bottom: -2px; }
+  .navbar .text-left .navbar-brand {
+    width: 77px;
+    height: 75px;
+    padding: 16px; }
+    .navbar .text-left .navbar-brand .logo {
+      width: 45px;
+      height: 42px;
+      margin-top: -5px; }
+  .navbar .text-left .for-mobile {
+    display: none; }
+  .navbar .text-left .for-all {
+    display: block; }
+  .navbar .text-left .dropdowns .nav .nav-item a {
+    color: #282A35 !important;
+    font-weight: 600;
+    font-size: 18px;
+    height: 75px;
+    border-radius: 0;
+    padding-top: 25px; }
+    .navbar .text-left .dropdowns .nav .nav-item a:hover {
+      background-color: #04AA6D;
+      color: white !important; }
+    .navbar .text-left .dropdowns .nav .nav-item a:focus {
+      background-color: #282A35;
+      color: white !important; }
+  .navbar .text-right .icons .for-p {
+    padding: 8px 16px;
+    cursor: pointer; }
+    .navbar .text-right .icons .for-p:hover .fa {
+      color: #04AA6D; }
+  .navbar .text-right .icons .fa {
+    font-size: 20px; }
+  .navbar .text-right .right-text .btn-w3 {
+    width: 130px;
+    height: 43px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 22px;
+    background-color: #04AA6D;
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    filter: brightness(100%); }
+    .navbar .text-right .right-text .btn-w3:hover {
+      filter: brightness(90%); }
+  .navbar .text-right .right-text a {
+    width: 140px;
+    height: 43px;
+    color: #282A35 !important;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 22px;
+    padding: 8px 16px; }
+    .navbar .text-right .right-text a:nth-child(1) {
+      margin-right: 10px; }
+      .navbar .text-right .right-text a:nth-child(1):hover {
+        background-color: #04AA6D;
+        color: #fff !important;
+        text-decoration: none; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .navbar {
+    background-color: white; }
+    .navbar .text-left {
+      width: 50%; }
+      .navbar .text-left .for-mobile {
+        display: block; }
+      .navbar .text-left .for-all {
+        display: none; }
+    .navbar .text-right {
+      position: absolute;
+      right: 0;
+      top: 25px; }
+      .navbar .text-right .right-text a:nth-child(1) {
+        display: none; } }
+@media only screen and (max-width: 576px) {
+  body main nav .text-left .for-mobile .dropdowns .nav .nav-item .dropdown-menu .dropdowns ul li {
+    display: none !important; } }
+@font-face {
+  font-family: "pachoqyouzuv";
+  src: url("Freckle_Face/FreckleFace-Regular.ttf"); }
+main {
+  background-image: url("./img/bgimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  main .sec1 .jumbotron-fluid .container .row .col h1 {
+    font-size: 68px !important; }
+  main .sec1 .jumbotron-fluid .container .row .col h6 {
+    font-size: 15px !important; }
+  main .sec1 .jumbotron-fluid .container .row .col .bit {
+    background-color: #04AA6D !important;
+    border-radius: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 40%;
+    height: 15%; }
+  main .sec1 .jumbotron-fluid .container .row .col .bit1 {
+    border-radius: 35px;
+    padding-right: 36px;
+    padding-left: 36px;
+    width: 40%;
+    height: 15%; }
+  main .sec1 .jumbotron-fluid .container .row .min .container .card .card-body {
+    margin-top: -20px;
+    margin-left: -20px;
+    height: 300px;
+    width: 500px; }
+    main .sec1 .jumbotron-fluid .container .row .min .container .card .card-body img {
+      position: absolute;
+      height: 100%;
+      width: 100%; }
+  main .sec1 .jum2 {
+    margin-top: -33px;
+    background-color: #cadbcc; }
+  main .sec1 .jum3 {
+    margin-top: -33px;
+    background-color: rgba(253, 240, 168, 0.98); }
+  main .sec1 .jum4 {
+    margin-top: -33px; }
+  main .sec1 .jum5 {
+    margin-top: -5%; }
+  main .sec2 .jumbotron .cont1 .ruv .cul1 {
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: pink !important; }
+    main .sec2 .jumbotron .cont1 .ruv .cul1 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main .sec2 .jumbotron .cont1 .ruv .cul2 {
+    margin-left: 15%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: rgba(253, 240, 168, 0.98); }
+    main .sec2 .jumbotron .cont1 .ruv .cul2 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main .sec2 .jumbotron .cont1 .ruv .cul3 {
+    margin-top: 5%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: white; }
+    main .sec2 .jumbotron .cont1 .ruv .cul3 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main .sec2 .jumbotron .cont1 .ruv .cul4 {
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: #cadbcc; }
+    main .sec2 .jumbotron .cont1 .ruv .cul4 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main .sec2 .jumbotron .cont2 .row .cim1 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 6px;
+    background-color: pink; }
+  main .sec2 .jumbotron .cont2 .row .cim2 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    background-color: #efef35;
+    border-radius: 6px; }
+  main .sec2 .jumbotron .cont2 .row .cim3 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    background-color: mediumpurple;
+    border-radius: 6px; }
+  main .sec2 .jumbotron .cont2 .row .cim4 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    background-color: yellowgreen;
+    border-radius: 6px; }
+  main .sec2 .jumbotron .cont2 .row .cim5 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    background-color: lightskyblue;
+    border-radius: 6px; }
+  main .sec2 .jumbotron .cont2 .row .cimw {
+    background-color: green;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 6px; }
+  main .sec3 {
+    margin-top: -2.5%; }
+    main .sec3 .jumbotron-fluid .card {
+      background-color: #e9ecef; }
+      main .sec3 .jumbotron-fluid .card .card-body .card-title h1 {
+        font-size: 70px; }
+      main .sec3 .jumbotron-fluid .card .card-body .card-text {
+        font-size: 20px; }
+      main .sec3 .jumbotron-fluid .card .clr {
+        width: 13%;
+        height: 13%;
+        margin: 0 auto; }
+  main .sec4 {
+    margin-top: -2.5%; }
+    main .sec4 .jumbotron-fluid {
+      background-color: lightskyblue; }
+      main .sec4 .jumbotron-fluid .card {
+        background-color: lightskyblue; }
+        main .sec4 .jumbotron-fluid .card .card-body .card-title {
+          font-family: pachoqyouzuv,sans-serif;
+          font-size: 80px; }
+        main .sec4 .jumbotron-fluid .card .card-body .card-text {
+          font-family: pachoqyouzuv,sans-serif;
+          font-size: 30px; }
+        main .sec4 .jumbotron-fluid .card .clr {
+          width: 13%;
+          height: 13%;
+          margin: 0 auto; }
+        main .sec4 .jumbotron-fluid .card .bh {
+          border-radius: 30px;
+          width: 18%;
+          margin: 0 auto; }
+  main .sec5 .jumbotron-fluid .d-flex .ca1 {
+    opacity: .8;
+    font-size: 30px;
+    background-color: #04AA6D !important;
+    margin-right: 100px;
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+    height: 50%; }
+  main .sec5 .jumbotron-fluid .d-flex .ca2 {
+    opacity: .8;
+    font-size: 30px;
+    background-color: #ecd65f !important;
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+    height: 50%; }
+
+@media only screen and (max-width: 576px) {
+  main .jumbotron-fluid .container .row .col-6 {
+    margin-left: 10% !important; }
+    main .jumbotron-fluid .container .row .col-6 h1 {
+      font-size: 6vw !important; }
+    main .jumbotron-fluid .container .row .col-6 h6 {
+      font-size: 1vw !important; }
+    main .jumbotron-fluid .container .row .col-6 .bit {
+      background-color: #04AA6D !important;
+      border-radius: 20px;
+      padding-right: 50px;
+      padding-left: 50px;
+      width: 40%;
+      height: 15%; }
+    main .jumbotron-fluid .container .row .col-6 .bit1 {
+      font-size: 5px;
+      border-radius: 20px;
+      padding-right: 36px;
+      padding-left: 36px;
+      width: 40%;
+      height: 15%; }
+  main .jumbotron-fluid .container .row .col-6 {
+    margin-top: 10%; } }
+@media only screen and (min-width: 576px) {
+  main .jumbotron-fluid .container .row .col h1 {
+    font-size: 6vw !important; }
+  main .jumbotron-fluid .container .row .col h6 {
+    font-size: 1vw !important; }
+  main .jumbotron-fluid .container .row .col .bit {
+    background-color: #04AA6D !important;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 40%;
+    height: 15%; }
+  main .jumbotron-fluid .container .row .col .bit1 {
+    border-radius: 20px;
+    padding-right: 36px;
+    padding-left: 36px;
+    width: 40%;
+    height: 15%; } }
+@media only screen and (max-width: 992px) {
+  main section .jumbotron-fluid .container .row .col h1 {
+    font-size: 68px !important; }
+  main section .jumbotron-fluid .container .row .col h6 {
+    font-size: 15px !important; }
+  main section .jumbotron-fluid .container .row .col .bit {
+    font-size: 10px;
+    background-color: #04AA6D !important;
+    border-radius: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 40%;
+    height: 15%; }
+  main section .jumbotron-fluid .container .row .col .bit1 {
+    font-size: 10px;
+    border-radius: 35px;
+    padding-right: 36px;
+    padding-left: 36px;
+    width: 40%;
+    height: 15%; }
+  main section .jumbotron-fluid .container .row .min .container .card .card-body {
+    margin-top: -20px;
+    margin-left: -20px;
+    height: 300px;
+    width: 500px; }
+    main section .jumbotron-fluid .container .row .min .container .card .card-body img {
+      position: absolute;
+      height: 100%;
+      width: 100%; }
+  main section .jum2 {
+    margin-top: -33px;
+    background-color: rgba(202, 219, 204, 0.46); }
+    main section .jum2 .container .row .col {
+      margin-left: 1%; }
+  main section .jum3 {
+    margin-top: -33px;
+    background-color: rgba(253, 240, 168, 0.98); }
+  main section .jum4 {
+    margin-top: -33px; }
+  main section .jum5 .container .row .col {
+    margin-left: 1%; }
+  main section .jumbotron .cont1 .ruv .cul1 {
+    margin-right: 10%;
+    margin-left: 15%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: pink !important; }
+    main section .jumbotron .cont1 .ruv .cul1 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main section .jumbotron .cont1 .ruv .cul2 {
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: rgba(253, 240, 168, 0.98); }
+    main section .jumbotron .cont1 .ruv .cul2 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main section .jumbotron .cont1 .ruv .cul3 {
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: white; }
+    main section .jumbotron .cont1 .ruv .cul3 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main section .jumbotron .cont1 .ruv .cul4 {
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 35px;
+    background-color: #cadbcc; }
+    main section .jumbotron .cont1 .ruv .cul4 .ptn {
+      width: 40%;
+      border-radius: 50px; }
+  main section .jumbotron .cont2 .row .cim {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2% 5% 2% 5%;
+    background-color: blue !important; } }
+/*navmedia*/
+@media only screen and (max-width: 576px) {
+  main .d1 .d2 .f4 .f5 .f6 {
+    display: none; }
+  main .d1 .d2 .f4 .f5 .f7 {
+    display: none; }
+  main .d1 .d2 .f4 .f5 .f8 {
+    display: none; }
+  main .d1 .g2 .g3 .g4 {
+    display: none; }
+  main .d1 .g2 .g3 .g5 {
+    transform: translateX(150%);
+    margin-top: -45%; } }
+@media only screen and (max-width: 600px) {
+  main .d1 .d2 .f4 .f5 .f6 {
+    display: none; }
+  main .d1 .g2 .g3 .g4 {
+    display: none; }
+  main .d1 .g2 .g3 .g5 {
+    transform: translateX(1%);
+    margin-top: -10%; } }
+@media only screen and (max-width: 768px) {
+  main .d1 .d2 .f4 .f5 .f6 {
+    display: none; }
+  main .d1 .g2 .g3 .g4 {
+    display: none; } }
+@media only screen and (max-width: 760px) {
+  main .d1 .d2 .f4 .f5 .f6 {
+    display: none; }
+  main .d1 .d2 .f4 .f5 .f7 {
+    display: none; }
+  main .d1 .g2 .g3 .g4 {
+    display: none; } }
+@media only screen and (max-width: 991px) {
+  main .d1 .d2 .f4 .f5 .f6 {
+    display: none; }
+  main .d1 .g2 .g3 .g4 {
+    display: none; } }
+/*navmedia*/
+
+/*# sourceMappingURL=style.css.map */
